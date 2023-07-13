@@ -10,12 +10,18 @@
 	- Gerer assurances
 	""",
 
-	'author': "Imad Bourouche",
-	'website': "http://www.imadcompany.com",
-	'license': 'LGPL-3',
-	'category': 'Test',
-	'version': '0.2',
-	'depends': [],
-	'data': [],
-	'demo': [],
+	'depends': [
+		'base',
+		'sale_management'
+	],
+
+	'data': [
+		'security/security.xml',
+		'security/ir.model.access.csv',
+		'views/clientspec.xml',
+	],
+
+	'demo': [
+		'demo.xml',
+	],
 }
