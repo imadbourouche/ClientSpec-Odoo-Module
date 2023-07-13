@@ -23,10 +23,3 @@ Client Spec is an Odoo module designed to streamline the management of wholesale
 5. Click on "Install" to install the module.
 
 Once the module is installed, you can access the features provided by Client Spec through the Odoo user interface.
-
-- **Clients:** Manage wholesale clients, view their details.
-
-- **Orders:** Create new orders, manage existing orders.
-
-- **Insurance:** Store and manage insurance information for clients.
-
